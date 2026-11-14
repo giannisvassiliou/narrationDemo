@@ -12,7 +12,7 @@ When a language model turns a knowledge graph into text, it may add claims that 
 Unsupported claims are also looked up in the wider graph. If evidence turns up there, the claim is reported as having candidate evidence outside the input, but it stays **unsupported relative to the input**: support in the wider graph is not grounding, and a failed lookup does not show that a claim is false.
 
 - Live prototype: http://139.91.210.46:8000/
-- Video: *(add link)*
+- Video: http://139.91.210.46
 
 ---
 
@@ -266,15 +266,5 @@ tests/              smoke tests
 
 The demo uses public KG data (DBpedia, Wikidata) and keeps their attribution and licence terms. Visitors are asked not to enter sensitive information. Visitor input may be used for research only with informed consent and the applicable review.
 
-## Citation
 
-```bibtex
-@inproceedings{vassiliou2027insidethegraph,
-  title     = {InsideTheGraph? Inspecting Evidence in Knowledge-Graph-Grounded Narratives},
-  author    = {Vassiliou, Giannis and Troullinou, Georgia and Trouli, Georgia Eirini and
-               Batsakis, Sotirios and Papadakis, Nikolaos and Kondylakis, Haridimos},
-  booktitle = {Companion Proceedings of the ACM Web Conference 2027 (WWW '27)},
-  year      = {2027},
-  address   = {Dublin, Ireland}
-}
-```
+
